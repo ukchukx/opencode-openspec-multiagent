@@ -20,6 +20,7 @@ Priorities (in order)
 1) Simplicity (prefer the smallest solution that works; avoid overengineering; follow YAGNI)
 2) Correctness
 3) Performance only when there is clear evidence it's needed (avoid premature optimization)
+4) Security
 
 Communication rules
 - No filler or generic advice. Every line should be decision-relevant.
