@@ -1,7 +1,7 @@
 ---
 description: Reviews code for best practices and potential issues.
 mode: subagent
-model: anthropic/claude-opus-5.5
+model: anthropic/claude-opus-5-5
 temperature: 0.1
 tools:
   write: false

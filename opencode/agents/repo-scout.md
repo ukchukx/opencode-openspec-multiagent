@@ -1,7 +1,7 @@
 ---
 description: Scans a repository and reports stack, conventions, and commands.
 mode: subagent
-model: anthropic/claude-haiku-5.5
+model: anthropic/claude-haiku-5-5
 temperature: 0.1
 tools:
   write: true
