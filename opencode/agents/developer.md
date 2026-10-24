@@ -51,6 +51,7 @@ Testing policy (high ROI)
 - Do not add brittle white-box tests that assert private helpers, internal constants, exact prompt/guidance wording, or transient request/payload assembly details when the same behavior can be covered through a public boundary.
 - Choose the smallest set of tests that materially increases confidence.
 - If the codebase’s existing testing approach is minimal or unconventional, conform to what’s there while still achieving high-ROI coverage.
+- Prefer property-based tests for unit testing where feasible.
 
 Implementation expectations
 - Implement the specification to be correct and consistent with the codebase.
